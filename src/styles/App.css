@@ -2,27 +2,110 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+@font-face {
+  font-family: adultswim;
+  src: url('/fonts/rick_and_morty_by_shittychan-d9h2vl6.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: schwifty;
+  src: url('/fonts/get_schwifty__a_rick_and_morty_font_by_jonizaak-dajw4u8.ttf') format('truetype');
+}
+
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 4em;
+  padding: 2em;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 4em;
+  margin: auto;
+  color: rgb(42, 191, 34);
 }
 
-.App-intro {
-  font-size: large;
+.character-line {
+  display: flex;
+  justify-content: space-around;
+  height: 30em;
+  margin-left: 3em;
+  margin-right: 3em;
+  align-items: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.show-me {
+  height: 15em;
+  width: 15em;
 }
+
+.morty {
+  height: 25em;
+  width: 20em;
+  border-radius: 20em;
+}
+
+.rick {
+  height: 25em;
+  width: 20em;
+  border-radius: 20em;
+}
+
+.align-top {
+  align-self: flex-end;
+}
+
+.quote-box {
+  margin: 1em;
+  font-size: 2em;
+  font-family: adultswim, sans-serif;
+  color: turquoise;
+}
+
+.verdict {
+  font-size: 3em;
+  margin: 1em;
+}
+
+
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #1c1b18;
+	-webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 45px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  margin: 1em;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+	background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+        

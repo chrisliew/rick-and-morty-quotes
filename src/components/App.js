@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'; // eslint-disable-line no-unused-vars
+import Home from './Home'; // eslint-disable-line no-unused-vars
 import '../styles/App.css';
+import quotes from '../quotes.json';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          GAYYY <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <div>
+        <Home quotes={quotes}/>
+      </div> 
     );
   }
 }
