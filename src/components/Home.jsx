@@ -20,7 +20,7 @@ export default class Home extends React.Component {
     
     this.setState({
       quote : `"${randomQuoteRick}"`,
-      verdict: "I Like What You Got!!"
+      verdict: 'I Like What You Got!!'
     });
   }
 
@@ -33,7 +33,7 @@ export default class Home extends React.Component {
     
     this.setState({
       quote : `"${randomQuoteMorty}"`,
-      verdict: "I Like What You Got!!"
+      verdict: 'I Like What You Got!!'
     });
   }
 
