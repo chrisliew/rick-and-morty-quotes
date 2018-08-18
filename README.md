@@ -1,7 +1,7 @@
 Rick And Morty Quotes
 =====================
 
-Quote Generator for the Adult Swim cartoon Rick and Morty.  Single Page Application built with React.   
+Quote Generator for the Adult Swim cartoon Rick and Morty.  Single Page Application built with React. Hosted on https://rmortyquote.herokuapp.com/  
 
 ## Screenshot
 
